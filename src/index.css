@@ -1,0 +1,131 @@
+:root {
+  --text-primary-color: #0f1419;
+  --text-secondary-color: #536471;
+  --action-retweet-color: #00ba7c;
+  /* --action-retweet-color: #f4212e; */
+  --action-like-color: rgba(249, 24, 128, 1);
+  --brand-color: #1d9bf0;
+  --border-color: #cfd9de;
+  --surface-color: #f7f9f9;
+  --white-color: #fff;
+  --black-color: #000;
+  --video-context-bar-bg-color: rgba(0, 0, 0, 0.77);
+  --brand-color-hover: rgba(29, 155, 240, 0.1);
+  --brand-color-active: rgba(29, 155, 240, 0.2);
+  --action-color-hover: rgba(0, 186, 124, 0.1);
+  --action-color-active: rgba(0, 186, 124, 0.2);
+  --action-like-color-hover: rgba(249, 24, 128, 0.1);
+  --action-like-color-active: rgba(249, 24, 128, 0.2);
+}
+
+.title-bold-typograpy {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title-regular-typograpy {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subtitle-bold-typograpy {
+  font-size: 15px;
+  font-weight: 590;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.subtitle-regular-typograpy {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tag-typograpy {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.caption-typograpy {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.body-large-typograpy {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.body-regular-typograpy {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.button-large-typograpy {
+  font-size: 17px;
+  font-weight: 590;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button-small-typograpy {
+  font-size: 13px;
+  font-weight: 590;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button-regular-typograpy {
+  font-size: 15px;
+  font-weight: 590;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.icon-regular {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-small {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,31 @@
+.context-bar {
+  width: auto;
+  height: 20px;
+  gap: 2px;
+  display: flex;
+}
+
+.context-bar.caption-typograpy > .tag {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  padding: 2px 4px 2px 4px;
+  background-color: var(--video-context-bar-bg-color);
+  color: var(--white-color);
+}
+
+.context-bar.caption-typograpy > .duration {
+  border-radius: 4px 0 0 4px;
+}
+
+.context-bar.caption-typograpy > .views {
+  border-radius: 0 4px 4px 0;
+}
+
+.context-bar.caption-typograpy > .ad {
+  border-radius: 0 4px 4px 0;
+}
+
+.context-bar.caption-typograpy > .gif {
+  border-radius: 4px;
+}

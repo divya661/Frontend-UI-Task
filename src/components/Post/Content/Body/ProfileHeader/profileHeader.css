@@ -1,0 +1,30 @@
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  gap: 4px;
+}
+
+.tertiary-button.actions {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tertiary-button.actions:active,
+.tertiary-button.actions:focus {
+  background-color: var(--brand-color-active);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.actions:hover {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-hover);
+  border: 0;
+  border-radius: 50%;
+}

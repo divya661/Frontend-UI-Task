@@ -1,0 +1,19 @@
+.user-info {
+  display: flex;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-handle {
+  color: var(--text-secondary-color);
+  display: flex;
+  gap: 4px;
+}
+
+.user-name {
+  display: flex;
+  gap: 2px;
+  color: var(--text-primary-color);
+  text-wrap: nowrap;
+}

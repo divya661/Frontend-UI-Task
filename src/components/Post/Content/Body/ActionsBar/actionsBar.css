@@ -1,0 +1,173 @@
+.tweet-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  overflow: visible;
+}
+
+.count-button {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-inline-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+}
+
+.count {
+  color: var(--text-secondary-color);
+}
+
+.tertiary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 34px;
+}
+
+.tertiary-button img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.tertiary-button.share-button:active,
+.tertiary-button.share-button:focus {
+  background-color: var(--brand-color-active);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.share-button {
+  width: 34px;
+  height: 34px;
+}
+.tertiary-button.share-button:hover {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-hover);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.comment-button:active .count,
+.tertiary-button.comment-button:focus .count {
+  color: var(--brand-color);
+}
+
+.tertiary-button.comment-button:active .icon-inline-block,
+.tertiary-button.comment-button:focus .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-active);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.comment-button:hover .count {
+  color: var(--brand-color);
+}
+
+.tertiary-button.comment-button:hover .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-hover);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.repost-button:active .count,
+.tertiary-button.repost-button:focus .count {
+  color: var(--action-retweet-color);
+}
+
+.tertiary-button.repost-button:active .icon-inline-block,
+.tertiary-button.repost-button:focus .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--action-color-active);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.repost-button:hover .count {
+  color: var(--action-retweet-color);
+}
+
+.tertiary-button.repost-button:hover .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--action-color-hover);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.liked-button:active .count,
+.tertiary-button.liked-button:focus .count {
+  color: var(--action-like-color);
+}
+
+.tertiary-button.liked-button:active .icon-inline-block,
+.tertiary-button.liked-button:focus .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--action-like-color-active);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.liked-button:hover .count {
+  color: var(--action-like-color);
+}
+
+.tertiary-button.liked-button:hover .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--action-like-color-hover);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.analytics-button:active .count,
+.tertiary-button.analytics-button:focus .count {
+  color: var(--brand-color);
+}
+
+.tertiary-button.analytics-button:active .icon-inline-block,
+.tertiary-button.analytics-button:focus .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-active);
+  color: var(--brand-color);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.analytics-button:hover .count {
+  color: var(--brand-color);
+}
+
+.tertiary-button.analytics-button .icon-container svg {
+  fill: var(--text-secondary-color);
+}
+
+.tertiary-button.analytics-button:hover .icon-inline-block {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-hover);
+  color: var(--brand-color);
+  border: 0;
+  border-radius: 50%;
+}
+
+.tertiary-button.analytics-button:active .icon-inline-block .icon-container svg,
+.tertiary-button.analytics-button:focus .icon-inline-block .icon-container svg,
+.tertiary-button.analytics-button:hover .icon-inline-block .icon-container svg {
+  fill: var(--brand-color);
+}

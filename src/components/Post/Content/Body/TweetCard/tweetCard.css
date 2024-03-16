@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  gap: 7px;
+}
+
+.content {
+  color: var(--text-primary-color);
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280ch;
+}

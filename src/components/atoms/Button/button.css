@@ -1,0 +1,12 @@
+.tertiary-button {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.default-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
