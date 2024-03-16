@@ -15,7 +15,7 @@ export const videosSet2 = [
     duration: "0:25",
   },
   {
-    srcPath: "./assests/video-2.png",
+    srcPath: "./assests/image-2.png",
     altText: "Video 2",
     views: "4.2 M",
     duration: "0:25",
